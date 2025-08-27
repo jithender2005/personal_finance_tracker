@@ -55,6 +55,7 @@ A modern web-based application to **track income, expenses, budgets, and goals**
 Built with ❤️ using modern web technologies and AI assistance.
 
 ---
+https://spenttracker-backend.onrender.com
 
 ## 📸 Screenshots
 

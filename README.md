@@ -41,9 +41,6 @@ cd pragna-finance-tracker
 
 # Install dependencies
 npm install
-<img width="1916" height="851" alt="image" src="https://github.com/user-attachments/assets/fc33fd1c-51ce-497e-a10a-c0fc1f701253" />
-<img width="1896" height="834" alt="image" src="https://github.com/user-attachments/assets/8a15f2a8-7742-4bda-96c1-997b5c54d87b" />
-<img width="1891" height="848" alt="image" src="https://github.com/user-attachments/assets/78d845f4-716c-4bbc-bf5e-d9f105f82525" />
 <img width="1892" height="859" alt="image" src="https://github.com/user-attachments/assets/17bf8b9d-69b8-4bf3-a945-228acdd5d64b" />
 
 

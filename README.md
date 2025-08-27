@@ -1,49 +1,113 @@
-# 🌟 Pragna – Personal Finance Tracker
+Personal Finance Tracker
+Overview
 
-This is a **paid project** developed by **Jithender Sai Prasad** for the client **Pragna Alluri**.  
-The live application credits have been displayed under the client’s name as per project requirements.
+The Personal Finance Tracker is a web-based application designed to help users efficiently track and manage their financial activities. The system provides a simple, user-friendly interface that allows users to monitor income, expenses, budgets, and goals while also receiving AI-driven insights and tips on saving money.
 
-🔗 **Live Demo:** [pragna1.vercel.app](https://pragna1.vercel.app/)
+This project is built with React.js + Vite for the frontend and MongoDB + Express for the backend. Data displayed in the app is simulated using dummy data for demonstration purposes.
 
----
+Features
 
-## 📌 Project Overview
-Pragna is a modern **personal finance tracking web app** that allows users to manage their money effectively.  
-It provides an intuitive interface to track **income, expenses, budgets, and goals** in one place.
+User-friendly design ensuring smooth navigation and responsiveness across devices.
 
----
+Landing Page: Allows users to create an account or log in (if already registered), along with support information.
 
-## ✨ Features
-- 💵 Add & manage **Income / Expenses**  
-- 🎯 Create and monitor **Budgets & Goals**  
-- 📊 Generate **Reports & Analytics**  
-- 🔐 Secure **User Authentication** (Login/Register)  
-- 🌓 **Light & Dark Mode** support  
-- 📱 Fully **Responsive UI**  
+Login & Registration: Secure authentication system where users can register and provide necessary details.
 
----
+Home Page:
 
-## 🛠 Tech Stack
-- **Next.js** – React framework  
-- **React.js** – Component-based UI  
-- **Tailwind CSS** – Styling  
-- **Vercel** – Deployment  
+Welcomes the user post-login.
 
----
+Provides an overview dashboard with buttons to navigate income, expenses, budgets, goals, tips, and charts.
 
-## ⚡ Getting Started
-To run this project locally:
+Displays financial insights using dummy data.
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/pragna-finance-tracker.git
-cd pragna-finance-tracker
+Income & Expenses Tracking:
 
-# Install dependencies
-npm install
-<img width="1892" height="859" alt="image" src="https://github.com/user-attachments/assets/17bf8b9d-69b8-4bf3-a945-228acdd5d64b" />
+Manual entry of income and expenses.
 
+Option to simulate UPI integration (dummy simulation only).
 
+Track debit/credit card transactions and cash-based expenses.
 
-# Start the development server
-npm run dev
+View records in different formats (charts, tables, summaries).
+
+Budgets & Goals:
+
+Set financial goals and budget limits.
+
+AI chatbot assistance to recommend strategies for savings.
+
+AI Chatbot:
+
+Integrated chatbot (powered via pre-trained API like OpenAI/Dialogflow).
+
+Provides user support, tips for financial planning, and assistance with queries.
+
+Charts & Reports:
+
+Visual representation of income vs. expenses.
+
+Budget utilization and goal progress tracking.
+
+Dummy Data Simulation:
+
+All financial entries, UPI transactions, and card data are simulated for demo purposes.
+
+Tech Stack
+
+Frontend: React.js + Vite (HTML, CSS, JavaScript)
+
+Backend: Express.js, MongoDB
+
+AI Chatbot: Pre-trained API (OpenAI/Dialogflow)
+
+Data: Dummy simulation for financial records and UPI transactions
+
+Scope of Work
+
+The project implementation includes:
+
+Frontend development using React.js + Vite with responsive UI.
+
+Backend logic with Express and MongoDB for authentication and storage.
+
+Simulation of UPI integration for expense/income tracking.
+
+Designing multiple pages: Landing page, login/registration, homepage, dashboards (income/expenses/goals).
+
+Building an AI chatbot for support and financial tips.
+
+Testing all features with dummy data, validating input fields, and ensuring mobile responsiveness.
+
+How It Works
+
+User lands on the homepage with options to register or log in.
+
+After login/registration, the dashboard displays financial tracking options.
+
+Users can:
+
+Add income and expenses manually.
+
+Simulate UPI, debit, and credit card tracking (dummy only).
+
+Set goals and budgets.
+
+View reports and charts.
+
+The AI chatbot assists users with queries, gives money-saving suggestions, and guides goal planning.
+
+Future Enhancements
+
+Real UPI integration with payment gateways.
+
+Multi-user support with real-time financial data synchronization.
+
+Advanced AI-based financial recommendation system.
+
+Export reports in PDF/Excel formats.
+
+Deployment
+
+The project is deployed and accessible at:
+👉 Live Demo

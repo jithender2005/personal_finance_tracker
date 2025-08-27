@@ -1,113 +1,66 @@
-Personal Finance Tracker
-Overview
+# 💰 Personal Finance Tracker
 
-The Personal Finance Tracker is a web-based application designed to help users efficiently track and manage their financial activities. The system provides a simple, user-friendly interface that allows users to monitor income, expenses, budgets, and goals while also receiving AI-driven insights and tips on saving money.
+A modern web-based application to **track income, expenses, budgets, and goals** with AI-powered suggestions and a responsive user-friendly interface.
 
-This project is built with React.js + Vite for the frontend and MongoDB + Express for the backend. Data displayed in the app is simulated using dummy data for demonstration purposes.
+🔗 **Live Demo**: [Personal Finance Tracker](https://pragna1.vercel.app/)
 
-Features
+---
 
-User-friendly design ensuring smooth navigation and responsiveness across devices.
+## ✨ Features
 
-Landing Page: Allows users to create an account or log in (if already registered), along with support information.
+* **User-Friendly Design** – Clean, responsive layout for smooth navigation.
+* **Authentication** – Register/Login with secure authentication.
+* **Dashboard Overview** – Home page with quick access to all features (income, expenses, budgets, goals, charts).
+* **Income & Expenses** – Manual entry, simulated UPI transactions, debit/credit card tracking.
+* **Budgets & Goals** – Set limits and goals, track progress effectively.
+* **AI Chatbot** – Provides financial tips, money-saving suggestions, and user support.
+* **Reports & Charts** – Visual insights of income vs. expenses and goal progress.
+* **Dummy Data Simulation** – All financial records and UPI data are simulated for demonstration.
 
-Login & Registration: Secure authentication system where users can register and provide necessary details.
+---
 
-Home Page:
+## ⚙️ How It Works
 
-Welcomes the user post-login.
+1. Open the app and **create an account or log in**.
+2. Access the **dashboard** with quick links to income, expenses, budgets, and goals.
+3. **Add or simulate transactions** (manual input, UPI, debit/credit card).
+4. Track progress with **charts and summaries**.
+5. Get **AI chatbot assistance** for tips and support.
 
-Provides an overview dashboard with buttons to navigate income, expenses, budgets, goals, tips, and charts.
+---
 
-Displays financial insights using dummy data.
+## 🛠 Tech Stack
 
-Income & Expenses Tracking:
+* **Frontend**: React.js + Vite (HTML, CSS, JavaScript)
+* **Backend**: Express.js + MongoDB
+* **AI Chatbot**: Pre-trained API (OpenAI / Dialogflow)
+* **Data**: Dummy data simulation for transactions
 
-Manual entry of income and expenses.
+---
 
-Option to simulate UPI integration (dummy simulation only).
+## 🚀 Future Improvements
 
-Track debit/credit card transactions and cash-based expenses.
+* Real UPI & payment gateway integration
+* Export reports (PDF/Excel)
+* Multi-user support with live sync
+* Advanced AI financial planning & recommendations
+* Admin dashboard for tracking and analytics
 
-View records in different formats (charts, tables, summaries).
+---
 
-Budgets & Goals:
+## 👨‍💻 Authors
 
-Set financial goals and budget limits.
+* **Jithender Sai Prasad** (G390)
 
-AI chatbot assistance to recommend strategies for savings.
+Built with ❤️ using modern web technologies and AI assistance.
 
-AI Chatbot:
+---
 
-Integrated chatbot (powered via pre-trained API like OpenAI/Dialogflow).
+## 📸 Screenshots
 
-Provides user support, tips for financial planning, and assistance with queries.
 
-Charts & Reports:
-
-Visual representation of income vs. expenses.
-
-Budget utilization and goal progress tracking.
-
-Dummy Data Simulation:
-
-All financial entries, UPI transactions, and card data are simulated for demo purposes.
-
-Tech Stack
-
-Frontend: React.js + Vite (HTML, CSS, JavaScript)
-
-Backend: Express.js, MongoDB
-
-AI Chatbot: Pre-trained API (OpenAI/Dialogflow)
-
-Data: Dummy simulation for financial records and UPI transactions
-
-Scope of Work
-
-The project implementation includes:
-
-Frontend development using React.js + Vite with responsive UI.
-
-Backend logic with Express and MongoDB for authentication and storage.
-
-Simulation of UPI integration for expense/income tracking.
-
-Designing multiple pages: Landing page, login/registration, homepage, dashboards (income/expenses/goals).
-
-Building an AI chatbot for support and financial tips.
-
-Testing all features with dummy data, validating input fields, and ensuring mobile responsiveness.
-
-How It Works
-
-User lands on the homepage with options to register or log in.
-
-After login/registration, the dashboard displays financial tracking options.
-
-Users can:
-
-Add income and expenses manually.
-
-Simulate UPI, debit, and credit card tracking (dummy only).
-
-Set goals and budgets.
-
-View reports and charts.
-
-The AI chatbot assists users with queries, gives money-saving suggestions, and guides goal planning.
-
-Future Enhancements
-
-Real UPI integration with payment gateways.
-
-Multi-user support with real-time financial data synchronization.
-
-Advanced AI-based financial recommendation system.
-
-Export reports in PDF/Excel formats.
-
-Deployment
-
-The project is deployed and accessible at:
-👉 Live Demo
+<img width="1891" height="848" alt="Screenshot 2025-08-27 160007" src="https://github.com/user-attachments/assets/5d432866-f960-43f4-9e51-f28daf99caf6" />
+<img width="1896" height="834" alt="Screenshot 2025-08-27 155954" src="https://github.com/user-attachments/assets/59d8b630-c7d3-402c-bbf2-0ca0084e97fa" />
+<img width="1878" height="828" alt="Screenshot 2025-08-27 155943" src="https://github.com/user-attachments/assets/d9e886ec-b8f1-49c5-84d1-c8fb586842c0" />
+<img width="1892" height="859" alt="Screenshot 2025-08-27 155922" src="https://github.com/user-attachments/assets/f8bf5c62-60b7-4a26-abca-c75aa865da58" />
+<img width="1916" height="851" alt="Screenshot 2025-08-27 155550" src="https://github.com/user-attachments/assets/446c720c-1c0c-41d2-b815-be2560d65130" />
